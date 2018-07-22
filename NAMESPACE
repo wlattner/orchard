@@ -1,0 +1,3 @@
+useDynLib(orchard, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
