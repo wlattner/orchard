@@ -3,8 +3,7 @@ Type: Package
 Title: Random Forests
 Version: 1.0
 Date: 2018-07-22
-Author: Bill Lattner [aut, cre]
-Maintainer: Bill Lattner <wlattner@gmail.com>
+Authors@R: person("Bill", "Lattner", email = "wlattner@gmail.com", role = c("aut", "cre"))
 Description: Orchard is a package for fitting Random Forest models.
 License: MIT + file LICENSE
 Imports: Rcpp (>= 0.12.9)

@@ -8,3 +8,7 @@
 \description{
 Orchard is a package for fitting Random Forest models.
 }
+\author{
+\strong{Maintainer}: Bill Lattner \email{wlattner@gmail.com}
+
+}
