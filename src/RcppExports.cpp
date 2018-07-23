@@ -5,19 +5,13 @@
 
 using namespace Rcpp;
 
-// rcpp_hello_world
-List rcpp_hello_world();
-RcppExport SEXP _orchard_rcpp_hello_world() {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    rcpp_result_gen = Rcpp::wrap(rcpp_hello_world());
-    return rcpp_result_gen;
-END_RCPP
-}
+
+RcppExport SEXP run_testthat_tests();
+RcppExport SEXP _rcpp_module_boot_RegressionTree();
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_orchard_rcpp_hello_world", (DL_FUNC) &_orchard_rcpp_hello_world, 0},
+    {"_rcpp_module_boot_RegressionTree", (DL_FUNC) &_rcpp_module_boot_RegressionTree, 0},
+    {"run_testthat_tests", (DL_FUNC) &run_testthat_tests, 0},
     {NULL, NULL, 0}
 };
 
