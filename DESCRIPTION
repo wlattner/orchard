@@ -7,6 +7,8 @@ Author: Bill Lattner [aut, cre]
 Maintainer: Bill Lattner <wlattner@gmail.com>
 Description: Orchard is a package for fitting Random Forest models.
 License: MIT + file LICENSE
-Imports: Rcpp (>= 0.12.14)
-LinkingTo: Rcpp
+Imports: Rcpp (>= 0.12.9)
+LinkingTo: Rcpp,
+    testthat
 RoxygenNote: 6.0.1
+Suggests: testthat
