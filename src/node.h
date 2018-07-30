@@ -1,8 +1,10 @@
 #include <vector>
 
+using int_iterator = std::vector<int>::iterator;
+
 struct Node {
-    std::vector<int>::iterator begin;
-    std::vector<int>::iterator end;
+    int_iterator begin;
+    int_iterator end;
     int parent;
     bool is_left;
     bool is_leaf;
